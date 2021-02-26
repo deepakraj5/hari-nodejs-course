@@ -11,6 +11,10 @@ app.use(express.json())
 const userRoute = require('./routes/user')
 app.use(userRoute)
 
+app.get('/', (req, res) => {
+    res.send('hello')
+})
+
 app.listen(PORT, () => {
     console.log(`server up on port ${PORT}`)
 })
