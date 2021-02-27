@@ -15,14 +15,6 @@ app.get('/', (req, res) => {
     res.send('hello')
 })
 
-app.get('/new', (req, res) => {
-    res.send('new test')
-})
-
-app.get('/test1', (req, res) => {
-    res.send('new test')
-})
-
 app.listen(PORT, () => {
     console.log(`server up on port ${PORT}`)
 })
