@@ -12,7 +12,7 @@ const userRoute = require('./routes/user')
 app.use(userRoute)
 
 app.get('/', (req, res) => {
-    res.send('hi 1')
+    res.send('hi 2')
 })
 
 app.listen(PORT, () => {
